@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <property name="LOG_DIR" value="/Users/kirinchoi/tmp/daylightsaving/"/>
+
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+    
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+    
+    <appender name="TASK001" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK001</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task001" additivity="false" level="ALL">
+        <appender-ref ref="TASK001"/>
+    </logger>
+
+    <appender name="TASK002" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK002</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task002" additivity="false" level="ALL">
+        <appender-ref ref="TASK002"/>
+    </logger>
+    
+    <appender name="TASK011" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK011</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task011" additivity="false" level="ALL">
+        <appender-ref ref="TASK011"/>
+    </logger>
+
+    <appender name="TASK012" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK012</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task012" additivity="false" level="ALL">
+        <appender-ref ref="TASK012"/>
+    </logger>
+
+    <appender name="TASK021" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK021</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task021" additivity="false" level="ALL">
+        <appender-ref ref="TASK021"/>
+    </logger>
+
+    <appender name="TASK022" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK022</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task022" additivity="false" level="ALL">
+        <appender-ref ref="TASK022"/>
+    </logger>
+
+    <appender name="TASK023" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK023</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task023" additivity="false" level="ALL">
+        <appender-ref ref="TASK023"/>
+    </logger>
+
+    <appender name="TASK024" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK024</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task024" additivity="false" level="ALL">
+        <appender-ref ref="TASK024"/>
+    </logger>
+
+    <appender name="TASK031" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK031</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task031" additivity="false" level="ALL">
+        <appender-ref ref="TASK031"/>
+    </logger>
+
+    <appender name="TASK032" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK032</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task032" additivity="false" level="ALL">
+        <appender-ref ref="TASK032"/>
+    </logger>
+
+    <appender name="TASK033" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK033</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task033" additivity="false" level="ALL">
+        <appender-ref ref="TASK033"/>
+    </logger>
+
+    <appender name="TASK034" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK034</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task034" additivity="false" level="ALL">
+        <appender-ref ref="TASK034"/>
+    </logger>
+
+    <appender name="TASK031" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK031</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task041" additivity="false" level="ALL">
+        <appender-ref ref="TASK041"/>
+    </logger>
+
+    <appender name="TASK042" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK042</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task042" additivity="false" level="ALL">
+        <appender-ref ref="TASK042"/>
+    </logger>
+
+    <appender name="TASK043" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK043</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task043" additivity="false" level="ALL">
+        <appender-ref ref="TASK043"/>
+    </logger>
+
+    <appender name="TASK044" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK044</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task044" additivity="false" level="ALL">
+        <appender-ref ref="TASK044"/>
+    </logger>
+</configuration>
