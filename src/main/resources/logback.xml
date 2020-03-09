@@ -3,7 +3,7 @@
 
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 
-    <property name="LOG_DIR" value="/Users/kirinchoi/tmp/daylightsaving/"/>
+    <property name="LOG_DIR" value="/home/centos/log/java"/>
 
     <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
     
@@ -16,7 +16,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task001" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task001" additivity="true" level="ALL">
         <appender-ref ref="TASK001"/>
     </logger>
 
@@ -25,7 +25,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task002" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task002" additivity="true" level="ALL">
         <appender-ref ref="TASK002"/>
     </logger>
     
@@ -34,7 +34,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task011" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task011" additivity="true" level="ALL">
         <appender-ref ref="TASK011"/>
     </logger>
 
@@ -43,7 +43,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task012" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task012" additivity="true" level="ALL">
         <appender-ref ref="TASK012"/>
     </logger>
 
@@ -52,7 +52,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task021" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task021" additivity="true" level="ALL">
         <appender-ref ref="TASK021"/>
     </logger>
 
@@ -61,7 +61,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task022" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task022" additivity="true" level="ALL">
         <appender-ref ref="TASK022"/>
     </logger>
 
@@ -70,7 +70,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task023" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task023" additivity="true" level="ALL">
         <appender-ref ref="TASK023"/>
     </logger>
 
@@ -79,7 +79,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task024" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task024" additivity="true" level="ALL">
         <appender-ref ref="TASK024"/>
     </logger>
 
@@ -88,7 +88,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task031" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task031" additivity="true" level="ALL">
         <appender-ref ref="TASK031"/>
     </logger>
 
@@ -97,7 +97,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task032" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task032" additivity="true" level="ALL">
         <appender-ref ref="TASK032"/>
     </logger>
 
@@ -106,7 +106,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task033" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task033" additivity="true" level="ALL">
         <appender-ref ref="TASK033"/>
     </logger>
 
@@ -115,7 +115,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task034" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task034" additivity="true" level="ALL">
         <appender-ref ref="TASK034"/>
     </logger>
 
@@ -124,7 +124,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task041" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task041" additivity="true" level="ALL">
         <appender-ref ref="TASK041"/>
     </logger>
 
@@ -133,7 +133,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task042" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task042" additivity="true" level="ALL">
         <appender-ref ref="TASK042"/>
     </logger>
 
@@ -142,7 +142,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task043" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task043" additivity="true" level="ALL">
         <appender-ref ref="TASK043"/>
     </logger>
 
@@ -151,7 +151,7 @@
         <encoder><pattern>%msg%n</pattern></encoder>
     </appender>
 
-    <logger name="net.iizs.test.daylightsaving.task.Task044" additivity="false" level="ALL">
+    <logger name="net.iizs.test.daylightsaving.task.Task044" additivity="true" level="ALL">
         <appender-ref ref="TASK044"/>
     </logger>
 </configuration>

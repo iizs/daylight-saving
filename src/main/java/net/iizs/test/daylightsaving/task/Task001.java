@@ -14,8 +14,8 @@ public class Task001 extends ScheduledTasks {
 
     private static final Logger log = LoggerFactory.getLogger(Task001.class);
 
-    //@Scheduled(cron = "0 */10 * * * *")
-    @Scheduled(fixedRate = 5000)
+    @Scheduled(cron = "0 */10 * * * *")
+    //@Scheduled(fixedRate = 5000)
     public void reportCurrentTime() {
         log.info(getLogMessage());
     }
