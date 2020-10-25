@@ -6,5 +6,5 @@ Simple test codes to examine the behavior of job schedulers against daylight sav
   * crontab setting & bash script used to test crontab
 * /src & pom.xml
   * java code to test spring scheduled task
-* /log
+* /log.202003
   * log files executed around Mar/08/2020
