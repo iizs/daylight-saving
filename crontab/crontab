@@ -18,3 +18,10 @@
 30 2,3,5 * * *      /home/centos/work/PDT_test/test_crontab.sh "Designated #2" 042_designated_2
 0 2,4,5 * * *       /home/centos/work/PDT_test/test_crontab.sh "Designated #3" 043_designated_3
 30 2,4,5 * * *      /home/centos/work/PDT_test/test_crontab.sh "Designated #4" 044_designated_4
+
+0 */3 * * *         /home/centos/work/PDT_test/test_crontab.sh "Every 3 hours #1" 051_3hours_1
+30 */3 * * *        /home/centos/work/PDT_test/test_crontab.sh "Every 3 hours #2" 052_3hours_2
+0 1-23/3 * * *      /home/centos/work/PDT_test/test_crontab.sh "Every 3 hours #3" 053_3hours_3
+30 1-23/3 * * *     /home/centos/work/PDT_test/test_crontab.sh "Every 3 hours #4" 054_3hours_4
+0 2-23/3 * * *      /home/centos/work/PDT_test/test_crontab.sh "Every 3 hours #3" 055_3hours_5
+30 2-23/3 * * *     /home/centos/work/PDT_test/test_crontab.sh "Every 3 hours #4" 056_3hours_6
