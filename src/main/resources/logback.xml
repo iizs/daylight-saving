@@ -154,4 +154,59 @@
     <logger name="net.iizs.test.daylightsaving.task.Task044" additivity="true" level="ALL">
         <appender-ref ref="TASK044"/>
     </logger>
+
+    <appender name="TASK051" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK051</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task051" additivity="true" level="ALL">
+        <appender-ref ref="TASK051"/>
+    </logger>
+
+    <appender name="TASK052" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK052</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task052" additivity="true" level="ALL">
+        <appender-ref ref="TASK052"/>
+    </logger>
+
+    <appender name="TASK053" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK053</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task053" additivity="true" level="ALL">
+        <appender-ref ref="TASK053"/>
+    </logger>
+
+    <appender name="TASK054" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK054</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task054" additivity="true" level="ALL">
+        <appender-ref ref="TASK054"/>
+    </logger>
+
+    <appender name="TASK055" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK055</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task055" additivity="true" level="ALL">
+        <appender-ref ref="TASK055"/>
+    </logger>
+
+    <appender name="TASK056" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/TASK056</file>
+        <encoder><pattern>%msg%n</pattern></encoder>
+    </appender>
+
+    <logger name="net.iizs.test.daylightsaving.task.Task056" additivity="true" level="ALL">
+        <appender-ref ref="TASK056"/>
+    </logger>
+
 </configuration>
