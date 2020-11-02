@@ -1,0 +1,14 @@
+[centos@pdt-test ~]$ git clone https://github.com/iizs/daylight-saving.git
+Cloning into 'daylight-saving'...
+remote: Enumerating objects: 136, done.
+remote: Counting objects: 100% (136/136), done.
+remote: Compressing objects: 100% (58/58), done.
+remote: Total 136 (delta 64), reused 131 (delta 60), pack-reused 0
+Receiving objects: 100% (136/136), 476.54 KiB | 641.00 KiB/s, done.
+Resolving deltas: 100% (64/64), done.
+
+[centos@pdt-test daylight-saving]$ sudo timedatectl set-timezone America/Los_Angeles
+
+[centos@pdt-test daylight-saving]$ date
+Sun Oct 25 14:46:03 PDT 2020
+
